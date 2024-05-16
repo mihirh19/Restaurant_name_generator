@@ -1,13 +1,14 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_cohere import ChatCohere
 from langchain.prompts import PromptTemplate
+import streamlit as st
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-load_dotenv()
-llm = ChatCohere()
+# load_dotenv()
+llm = ChatCohere(cohere_api_key=st.secrets["COHERE_API_KEY"])
 def generate_restaurant_name_and_items(cusine):
 
    
