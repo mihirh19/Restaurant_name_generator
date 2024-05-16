@@ -1,0 +1,5 @@
+streamlit
+dotenv
+langchain_cohere
+langchain
+langchain_core
