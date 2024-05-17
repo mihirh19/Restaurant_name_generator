@@ -39,7 +39,7 @@ What is LangChain ?
 
 ## used LLM
 
-`Cohere `
+`Cohere command-r-plus`
 
 ## Requirements
 
