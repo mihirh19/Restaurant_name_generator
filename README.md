@@ -1,4 +1,3 @@
-
 ![Restaurant_name_generator](https://socialify.git.ci/mihirh19/Restaurant_name_generator/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fmiro.medium.com%2Fv2%2F1*2NrgJTZkYKSN1AzFDmCLeA.png&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Light)
 
 # Restaurant Name and Menu Generator
@@ -40,7 +39,7 @@ What is LangChain ?
 
 ## used LLM
 
-`Cohere LLM`
+`Cohere command-r-plus`
 
 ## Requirements
 
@@ -63,7 +62,7 @@ What is LangChain ?
    ```
 3. **Set up your Cohere API key:**
    - Sign up at [Cohere's website](https://cohere.com/) to get your API key. Once you have your API key, update the cohere_api_key variable in the script:
-   - In ``.streamlit`` folder create a `secrets.toml` file and write api key in file.
+   - In `.streamlit` folder create a `secrets.toml` file and write api key in file.
    ```toml
    COHERE_API_KEY = "Your Api key"
    ```
